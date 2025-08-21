@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html langs="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>helloworld</title>
+        <!-- Added CSS for better appearance -->
+        <style>
+            body {
+                font-family: 'Segoe UI', Arial, sans-serif;
+                background: #f8fafc;
+                margin: 0;
+                padding: 20px;
+            }
+            h1 {
+                color: #2e8b57;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            h2 {
+                color: #4682b4;
+                margin-top: 0;
+            }
+            div {
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            }
+            img {
+                border-radius: 8px;
+                margin: 10px 10px 10px 0;
+                box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+                vertical-align: middle;
+            }
+            ul {
+                font-weight: bold;
+                color: #2e8b57;
+                margin-top: 20px;
+                margin-bottom: 5px;
+                list-style: none;
+                padding-left: 0;
+            }
+            h4 {
+                margin-top: 30px;
+                color: #4682b4;
+            }
+            input {
+                margin: 5px 0;
+                padding: 6px;
+                border-radius: 4px;
+                border: 1px solid #ccc;
+                width: 220px;
+                display: block;
+            }
+            button {
+                background: #2e8b57;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 4px;
+                cursor: pointer;
+                margin-top: 10px;
+                font-size: 1em;
+            }
+            button:hover {
+                background: #4682b4;
+            }
+            @media (max-width: 700px) {
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+                body {
+                    padding: 5px;
+                }
+                input {
+                    width: 100%;
+                }
+            }
+        </style>
+        <!-- Added JavaScript for button interaction -->
+        <script>
+            window.onload = function() {
+                const button = document.querySelector('button');
+                button.addEventListener('click', function() {
+                    window.location.href = "thankyou.html"; // Redirects to thankyou.html
+                });
+            };
+        </script>
+    </head>
+    <body>
+        <h1>Hello World</h1>
+        <p>
+            Welcome to our world.
+            <span style="color: rgba(0, 128, 0, 0.726); font-weight: bold;">Special Offer!</span>
+        </p>
+        <div style="background: #f0f0f0; padding: 10px; margin-bottom: 20px;">
+            <h2>Featured Destination</h2>
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Beautiful Landscape View" style="max-width:100%;height:auto;" />
+            <p>Discover breathtaking views in hello world.</p>
+        </div>
+        <p>
+         welcome to our hello world tour page we hope to help you choose and fly to your  favorite contry of your choice please kindly let us know if you wan to proceed thank you design by senpai dyzzy
+        </p>
+        <ul>Switzerland</ul>
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Switzerland" width="300">
+        <img src="https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?auto=format&fit=crop&w=800&q=80" alt="Norway" width="300">
+        <ul>Japan</ul>
+        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80" alt="Japan" width="300">
+        <img src="https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=800&q=80" alt="Greece" width="300">
+        <ul>New Zealand</ul>
+        <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80" alt="New Zealand" width="300">
+        <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80" alt="Iceland" width="300">
+        <ul>Italy</ul>
+        <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=800&q=80" alt="Italy" width="300">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="Maldives" width="300">
+        <h4>kindly imput your information below</h4>
+        <input placeholder="NAME">
+        <input placeholder="NUMBER">
+        <input placeholder="EMAIL">
+        <button>click</button>
+    </body>
+</html>
